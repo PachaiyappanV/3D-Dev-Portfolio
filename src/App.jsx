@@ -1,5 +1,9 @@
+import Navbar from "./sections/Navbar";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-white">Hello world!</h1>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
   );
 }
