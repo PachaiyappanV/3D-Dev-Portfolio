@@ -16,6 +16,7 @@ const NavItems = () => {
 };
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [img, setImg] = useState("p.png");
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
       <div className="max-w-7xl mx-auto">
@@ -24,7 +25,13 @@ const Navbar = () => {
             href="#"
             className="text-neutral-400 hover:text-white transition-colors"
           >
-            <img src="p.png" alt="logo" className="w-12 h-12" />
+            <img
+              onMouseOver={() => setImg("p2.png")}
+              onMouseOut={() => setImg("p.png")}
+              src={img}
+              alt="logo"
+              className="w-12 h-12"
+            />
           </a>
 
           <button
