@@ -76,7 +76,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="xl:col-span-2 xl:row-span-3 max-h-[450px]">
+        <div className="xl:col-span-2 xl:row-span-3 xl:max-h-[451px]">
           <div className="grid-container">
             <img
               src="assets/grid3.png"
@@ -95,7 +95,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="xl:col-span-1 xl:row-span-2 max-h-[273px]">
+        <div className="xl:col-span-1 xl:row-span-2 xl:max-h-[267px]">
           <div className="grid-container">
             <img
               src="assets/grid4.png"
@@ -110,7 +110,7 @@ const About = () => {
                   src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
                   alt="copy"
                 />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                <p className="lg:text-[21.5px] md:text-xl font-medium text-gray_gradient text-white">
                   pachaiyappan394@gmail.com
                 </p>
               </div>
