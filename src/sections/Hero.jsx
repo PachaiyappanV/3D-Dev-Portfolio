@@ -61,12 +61,12 @@ const Hero = () => {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space ">
         <a href="resume.pdf" className="w-fit" download>
           <Button
             name="Download Resume"
             isBeam
-            containerClass="sm:w-fit w-full sm:min-w-60"
+            containerClass="sm:w-fit min-w-60"
           />
         </a>
       </div>
