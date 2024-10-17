@@ -25,33 +25,33 @@ export const navLinks = [
     href: "#contact",
   },
 ];
+const e = [
+  {
+    title: "Quizmify - AI Quiz Platform",
+    desc: "Quizmify is an AI-driven quiz platform that lets users generate quizzes on specific topics, providing an engaging way to test and enhance their knowledge. It delivers detailed performance insights and correct answers, offering users a clear understanding of their results.",
+    subdesc:
+      "The platform is built using a robust tech stack that includes Next.js, React, TypeScript, Prisma, and OpenAI's GPT-4o model , ensuring optimal performance, scalability, and modern development practices.",
+    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/pl1.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/next.png",
+      },
+      {
+        id: 2,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
 
-export const myProjects = [
-  {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
-    subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
-    logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
-    },
-    spotlight: "/assets/spotlight1.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
       {
         id: 3,
         name: "TypeScript",
@@ -59,84 +59,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
-    logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-    },
-    spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "gpt",
+        path: "assets/gpt.png",
       },
     ],
   },
@@ -157,13 +81,55 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "nodejs",
+        path: "/assets/nodejs.png",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "express",
+        path: "assets/express.png",
+      },
+      {
+        id: 3,
+        name: "mongodb",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 4,
+        name: "javascript",
+        path: "/assets/js.png",
+      },
+    ],
+  },
+];
+
+export const myProjects = [
+  {
+    title: "PetSoft - Pet Daycare Management",
+    desc: "PetSoft is an innovative platform for pet daycare management, tailored for pet owners and daycare providers seeking a user-friendly experience. Built with Next.js, Prisma, and PostgreSQL, it offers a fast, secure, and scalable solution for managing pet daycares.",
+    subdesc:
+      "Key features include efficient form handling with React Hook Form and secure authentication via NextAuth. The backend leverages Prisma and PostgreSQL for optimal data management and scalability.",
+    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/p2.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "nextjs",
+        path: "/assets/next.png",
+      },
+      {
+        id: 2,
+        name: "reactjs",
+        path: "assets/react.svg",
       },
       {
         id: 3,
@@ -172,45 +138,122 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
       },
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "Velora - E-Commerce Platform",
+    desc: "Velora is a comprehensive e-commerce platform that redefines the online shopping experience. With a user-friendly interface and robust features, it enables seamless browsing, order placement, and payment processing.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+      "Built with the MERN stack (MongoDB, Express.js, React.js, and Node.js) and integrates Stripe for secure payment processing. Key features include user authentication and intuitive product management making it an ideal choice for modern online retail.",
+    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    texture: "/textures/project/project2.mp4",
+    logo: "/assets/p3.png",
     logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
     },
-    spotlight: "/assets/spotlight5.png",
+    spotlight: "/assets/spotlight1.png",
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "mongodb",
+        path: "/assets/mongo.png",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "express",
+        path: "assets/express.png",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "react",
+        path: "/assets/react.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "nodejs",
+        path: "/assets/nodejs.png",
+      },
+    ],
+  },
+  {
+    title: "E-Commerce API – For Your Store",
+    desc: "E-Commerce API is a robust and scalable backend solution for managing e-commerce platforms. It offers features like user authentication, product management, order processing, and a review system, ensuring a seamless experience for both admins and users.",
+    subdesc:
+      "Built with Node.js, Express, MongoDB, and JWT, this API ensures scalability and efficient e-commerce operations, with comprehensive documentation provided through Swagger and Docgen.",
+    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/pl3.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "nodejs",
+        path: "/assets/nodejs.png",
+      },
+      {
+        id: 2,
+        name: "express",
+        path: "assets/express.png",
+      },
+      {
+        id: 3,
+        name: "mongodb",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "/assets/js.png",
+      },
+    ],
+  },
+
+  {
+    title: "Jobs API – Efficient Job Management API",
+    desc: "Jobs API is a backend API designed to streamline job management tasks like creating, updating, and deleting job listings. It allows users to register, log in, and perform CRUD operations on job listings. The API ensures smooth data handling and offers endpoints for job retrieval.",
+    subdesc:
+      "Built with Node.js, Express.js, MongoDB, and JavaScript, the API leverages JWT for secure authentication, ensuring that only authorized users can access or modify job listings.",
+    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/p5.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "nodejs",
+        path: "/assets/nodejs.png",
+      },
+      {
+        id: 2,
+        name: "express",
+        path: "assets/express.png",
+      },
+      {
+        id: 3,
+        name: "mongodb",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 4,
+        name: "javascript",
+        path: "/assets/js.png",
       },
     ],
   },

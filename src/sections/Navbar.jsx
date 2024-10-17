@@ -31,7 +31,7 @@ const Navbar = () => {
               onMouseOut={() => setImg("p.png")}
               src={img}
               alt="logo"
-              className="w-10 h-10 sm:w-12 sm:h-12"
+              className="sm:w-10 sm:h-10 w-9 h-9"
             />
           </a>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             <img
               src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
               alt="toggle"
-              className="w-9 h-9"
+              className="w-8 h-8"
             />
           </button>
 
