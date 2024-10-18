@@ -294,35 +294,46 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   };
 };
 
-export const workExperiences = [
+export const experiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "TechnoHacks EduTech",
+    pos: "Web Development Intern",
+    duration: "Sep 2023 - Oct 2023",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "During my internship at TechnoHacks EduTech, I developed several web applications that covered both front-end and back-end tasks. I created a landing page for a company, a currency converter app, and a login page using Node.js for backend with password hashing. These projects allowed me to improve my skills in responsive web design, form validation, backend development, and integrating security measures like password encryption.",
+    icon: "/assets/th.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "NSIC Technical Services Centre",
+    pos: "Full Stack Development Intern",
+    duration: "Jun 2023 - Jul 2023",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
-    animation: "clapping",
+      "At NSIC, I focused on learning the MERN stack (MongoDB, Express.js, React, and Node.js) and building simple web applications. This experience allowed me to strengthen my understanding of full stack development, though my work primarily involved learning and practice rather than contributing to real-world projects. I gained insights into building dynamic web applications and managing databases effectively.",
+    icon: "/assets/nsic.png",
+    animation: "salute",
+  },
+];
+
+export const education = [
+  {
+    id: 1,
+    name: "Alagappa Chettiar Government College of Engineering & Technology (ACGCET)",
+    pos: "Bachelor of Engineering in Computer Science",
+    duration: "Jul 2021 - May 2024",
+    title:
+      "Gained a solid foundation in core computer science principles, including algorithms, data structures, software engineering, and database management. Engaged in hands-on projects, particularly in web development, building dynamic and responsive web applications. Coursework included operating systems, networks, and object-oriented programming, preparing me for complex software development tasks.",
+    icon: "/assets/clg.png",
   },
   {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    id: 2,
+    name: "Coding Ninjas",
+    pos: "Full Stack Web Development",
+    duration: "Mar 2022 - Feb 2023",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
+      "Specialized in full stack web development with a focus on the MERN stack (MongoDB, Express.js, React, Node.js). This self-paced course involved building simple projects and problem-solving exercises like debugging code and MCQs after each topic. Developed skills in front-end and back-end technologies, RESTful API creation, and state management with React.",
+    icon: "/assets/cn.png",
   },
 ];

@@ -31,7 +31,7 @@ const Navbar = () => {
               onMouseOut={() => setImg("p.png")}
               src={img}
               alt="logo"
-              className="sm:w-10 sm:h-10 w-9 h-9"
+              className="w-9 h-9"
             />
           </a>
 
