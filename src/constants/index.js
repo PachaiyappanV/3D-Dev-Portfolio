@@ -109,7 +109,8 @@ export const myProjects = [
     desc: "PetSoft is an innovative platform for pet daycare management, tailored for pet owners and daycare providers seeking a user-friendly experience. Built with Next.js, Prisma, and PostgreSQL, it offers a fast, secure, and scalable solution for managing pet daycares.",
     subdesc:
       "Key features include efficient form handling with React Hook Form and secure authentication via NextAuth. The backend leverages Prisma and PostgreSQL for optimal data management and scalability.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    source: "https://github.com/PachaiyappanV/PetSoft",
+    href: "https://pet-soft-vert.vercel.app",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/p2.png",
     logoStyle: {
@@ -148,7 +149,8 @@ export const myProjects = [
     desc: "Velora is a comprehensive e-commerce platform that redefines the online shopping experience. With a user-friendly interface and robust features, it enables seamless browsing, order placement, and payment processing.",
     subdesc:
       "Built with the MERN stack (MongoDB, Express.js, React.js, and Node.js) and integrates Stripe for secure payment processing. Key features include user authentication and intuitive product management making it an ideal choice for modern online retail.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    source: "https://github.com/PachaiyappanV/E-Commerce-app",
+    href: "https://velora-two.vercel.app",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/p3.png",
     logoStyle: {
@@ -185,7 +187,8 @@ export const myProjects = [
     desc: "E-Commerce API is a robust and scalable backend solution for managing e-commerce platforms. It offers features like user authentication, product management, order processing, and a review system, ensuring a seamless experience for both admins and users.",
     subdesc:
       "Built with Node.js, Express, MongoDB, and JWT, this API ensures scalability and efficient e-commerce operations, with comprehensive documentation provided through Swagger and Docgen.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    source: "https://github.com/PachaiyappanV/E-Commerce-api",
+    href: "https://e-commerce-api-x3cz.onrender.com",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/pl3.png",
     logoStyle: {
@@ -225,7 +228,8 @@ export const myProjects = [
     desc: "Jobs API is a backend API designed to streamline job management tasks like creating, updating, and deleting job listings. It allows users to register, log in, and perform CRUD operations on job listings. The API ensures smooth data handling and offers endpoints for job retrieval.",
     subdesc:
       "Built with Node.js, Express.js, MongoDB, and JavaScript, the API leverages JWT for secure authentication, ensuring that only authorized users can access or modify job listings.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    source: "https://github.com/PachaiyappanV/Jobs-Api",
+    href: "https://green-jobs.onrender.com",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/p5.png",
     logoStyle: {
