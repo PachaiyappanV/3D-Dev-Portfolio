@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        generalsans: ["General Sans", "sans-serif"],
+        generalsans: ["Faculty Glyphic", "sans-serif"],
       },
       colors: {
         black: {

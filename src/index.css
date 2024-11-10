@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/general-sans");
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,8 @@
 
 body {
   background: #010103;
-  font-family: "General Sans", sans-serif;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-style: normal;
 }
 
 @layer utilities {
