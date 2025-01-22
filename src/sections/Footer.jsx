@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
 
       <p className="text-white-500">
-        © 2024 Pachaiyappan. All rights reserved.
+        © 2025 Pachaiyappan. All rights reserved.
       </p>
     </footer>
   );
