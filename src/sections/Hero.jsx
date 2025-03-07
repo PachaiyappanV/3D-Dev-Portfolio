@@ -13,6 +13,7 @@ import ReactLogo from "../components/ReactLogo.jsx";
 import Rings from "../components/Rings.jsx";
 import Target from "../components/Target.jsx";
 import { calculateSizes } from "../constants/index.js";
+import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -28,7 +29,18 @@ const Hero = () => {
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Pachaiyappan <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Full-Stack Web Developer</p>
+        <p className="hero_tag text-gray_gradient">
+          <ReactTyped
+            strings={[
+              "Front-End Developer",
+              "Full-Stack Developer",
+              "Web Developer",
+            ]}
+            typeSpeed={50}
+            backSpeed={30}
+            loop
+          />
+        </p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
