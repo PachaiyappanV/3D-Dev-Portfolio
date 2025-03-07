@@ -105,6 +105,50 @@ const e = [
 
 export const myProjects = [
   {
+    title: "Opra - AI-Driven Video Messaging Platform",
+    desc: "Opra is an AI-driven video messaging platform designed to revolutionize asynchronous communication. Built with Next.js, React.js, and Tailwind CSS, it delivers seamless user experience. The platform leverages AWS CloudFront for optimized video streaming.  ",
+    subdesc:
+      "Key features include AI-powered transcription and summarization with OpenAI Whisper and GPT-3.5-turbo, cross-platform screen recording with Electron.js.",
+    source: "https://github.com/PachaiyappanV/PetSoft",
+    href: "https://pet-soft-vert.vercel.app",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/opra.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "nextjs",
+        path: "/assets/next.png",
+      },
+      {
+        id: 2,
+        name: "reactjs",
+        path: "assets/react.svg",
+      },
+
+      {
+        id: 4,
+        name: "AWS",
+        path: "/assets/aws.png",
+      },
+      {
+        id: 5,
+        name: "gpt",
+        path: "/assets/gpt.png",
+      },
+      {
+        id: 6,
+        name: "electron",
+        path: "/assets/electron.png",
+      },
+    ],
+  },
+  {
     title: "PetSoft - Pet Daycare Management",
     desc: "PetSoft is an innovative platform for pet daycare management, tailored for pet owners and daycare providers seeking a user-friendly experience. Built with Next.js, Prisma, and PostgreSQL, it offers a fast, secure, and scalable solution for managing pet daycares.",
     subdesc:
