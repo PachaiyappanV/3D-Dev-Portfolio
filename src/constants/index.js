@@ -109,9 +109,9 @@ export const myProjects = [
     desc: "Opra is an AI-driven video messaging platform designed to revolutionize asynchronous communication. Built with Next.js, React.js, and Tailwind CSS, it delivers seamless user experience. The platform leverages AWS CloudFront for optimized video streaming.  ",
     subdesc:
       "Key features include AI-powered transcription and summarization with OpenAI Whisper and GPT-3.5-turbo, cross-platform screen recording with Electron.js.",
-    source: "https://github.com/PachaiyappanV/PetSoft",
-    href: "https://pet-soft-vert.vercel.app",
-    texture: "/textures/project/project1.mp4",
+    source: "https://github.com/PachaiyappanV/Opra",
+    href: "https://opra-six.vercel.app",
+    texture: "/textures/project/project5.mp4",
     logo: "/assets/opra.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
